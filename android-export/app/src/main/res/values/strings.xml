@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ResQLink</string>
+    <string name="about_copy">ResQLink combines GPS, nearby Wi-Fi access points, cellular signals, and data connections to find your position faster and more accurately. This helps responders locate you even when GPS is weak indoors or between tall buildings.</string>
+    <string name="permission_copy">ResQLink needs location access to share your position with responders during an emergency. Location is shared only while a help request is active.</string>
+    <string name="terms_copy">1. Acceptance of terms\nBy using ResQLink, you agree to these terms of service.\n\n2. Purpose of the application\nThe app sends SOS alerts, shares location data with authorized responders, and supports coordinated rescue operations.\n\n3. User responsibilities\nProvide accurate information, use the app only for legitimate emergencies, and keep your login credentials confidential.\n\n4. Location data\nYour location is shared only during active emergency alerts and is encrypted during transmission.\n\n5. Data privacy\nPersonal and emergency information is used only for rescue and response purposes, except where disclosure is required by law.\n\n6. Intellectual property\nApp content and code may not be reproduced or distributed without permission.\n\n7. Changes to terms\nUpdated terms will be posted in the app. Continued use after an update indicates acceptance.</string>
+</resources>

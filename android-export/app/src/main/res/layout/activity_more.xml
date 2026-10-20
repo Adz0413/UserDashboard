@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/canvas">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/white"
+            android:text="‹"
+            android:textColor="@color/ink"
+            android:textSize="24sp" />
+        <TextView
+            style="@style/ScreenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="More" />
+        <TextView
+            style="@style/BodyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile, safety preferences and support" />
+        <Button
+            android:id="@+id/btnInformation"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="24dp"
+            android:text="User information" />
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:text="Settings"
+            android:textAllCaps="false"
+            android:textColor="@color/ink" />
+        <Button
+            android:id="@+id/btnContacts"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:text="Emergency contacts"
+            android:textAllCaps="false"
+            android:textColor="@color/ink" />
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:text="About ResQLink"
+            android:textAllCaps="false"
+            android:textColor="@color/ink" />
+        <Button
+            android:id="@+id/btnTerms"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:text="Terms and agreement"
+            android:textAllCaps="false"
+            android:textColor="@color/ink" />
+    </LinearLayout>
+</ScrollView>
